@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: white;
+  margin-bottom: 40px;
+  padding: 15px;
+}
+
+h1 {
+  display: inline;
+  font-size: 45px;
+  vertical-align: middle;
+}
+
+.logo {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+body {
+  background-color: #f6f8f9;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  background-color: white;
+  border-radius: 5px;
+  margin: auto;
+  padding-left: 60px;
+  width: 70%;
+}
+
+.buttons {
+  border-bottom: 2px solid #f6f8f9;
+  padding: 15px;
+}
+
+.button {
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  height: 30px;
+  padding: 4px;
+  width: 70px;
+}
+
+.button_task {
+  background-color: #47adf1;
+  color: #FFFFFF;
+}
+
+.button_section {
+  background-color: #FFFFFF;
+  color: #b9baba;
+}
+
+.tasks {
+  padding: 15px;
+}
+
+/* TEST LISTE
+In questa sezione ho sperimentato e provato ad integrare i cerchietti direttamente in una lista al posto dei normali bullets, sono leggermente decentrati ma non sono riuscito a sistemarli ulteriormente. La versione precedente di questo file caricata su Drive è quella più "immediata" e dovrebbe essere leggermente più precisa.
+*/
+ul li::before {
+  border: 2px solid;
+  border-radius: 100%;
+  content: "\2713";
+  display: inline-table;
+  font-size: 10px;
+  height: 15px;
+  margin-right: 10px;
+  text-align: center;
+  width: 15px;
+  line-height: px;
+}
+
+ul {
+  margin-top: 10px;
+  padding-bottom: 20px;
+  vertical-align: middle;
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+.done::before {
+  color: #67c1aa;
+  content: "\2714";
+}
+
+.undone::before {
+  color: #eb5b55;
+  content: "\2718";
+}
+
+/*
+/TEST LISTE
+*/
+
+.tag {
+  border-radius: 10px;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 10px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.tag_blue {
+  background-color: #47adf1;
+}
+
+.tag_purple {
+  background-color: #9c72e4;
+}
+
+.tag_green {
+  background-color: #64c0a9;
+}
+
+.tag_orange {
+  background-color: #f29e33;
+}
+
+.tag_pink {
+  background-color: #d863a1;
+}
+
+.tag_yellowgreen {
+  background-color: #b6cd38;
+}
