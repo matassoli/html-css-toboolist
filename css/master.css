@@ -63,9 +63,6 @@ body {
   padding: 15px;
 }
 
-/* TEST LISTE
-In questa sezione ho sperimentato e provato ad integrare i cerchietti direttamente in una lista al posto dei normali bullets, sono leggermente decentrati ma non sono riuscito a sistemarli ulteriormente. La versione precedente di questo file caricata su Drive è quella più "immediata" e dovrebbe essere leggermente più precisa.
-*/
 ul li::before {
   border: 2px solid;
   border-radius: 100%;
@@ -76,7 +73,6 @@ ul li::before {
   margin-right: 10px;
   text-align: center;
   width: 15px;
-  line-height: px;
 }
 
 ul {
@@ -98,10 +94,6 @@ ol, ul {
   color: #eb5b55;
   content: "\2718";
 }
-
-/*
-/TEST LISTE
-*/
 
 .tag {
   border-radius: 10px;
